@@ -126,7 +126,6 @@ AAD_JWKS_URL = 'https://login.microsoftonline.com/common/discovery/keys'
 AAD_DEFAULT_ROLE = 'View'
 
 PING_NAME = ''  # Use to override the Ping name in the UI.
-#PING_REDIRECT_URI = "{BASE}api/1/auth/ping".format(BASE=BASE_URL)
 PING_CLIENT_ID = ''  # Provided by your administrator
 PING_AUTH_ENDPOINT = ''  # Often something ending in authorization.oauth2
 PING_ACCESS_TOKEN_URL = ''  # Often something ending in token.oauth2
